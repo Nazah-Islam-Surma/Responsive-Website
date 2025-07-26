@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <!-- Navbar -->r">
+  <!-- Navbar -->
      <header class="navbar">
     <div class="logo">
       <img src="logo.png" alt="Logo" />
@@ -106,13 +106,14 @@
   </section>
 
   <!-- Plant Lover -->
- <div class="container">
-    <div class="image-section">
-      <img src="flower-store.png" alt="Flower Store" />
+ <section class="flower-lover-section">
+  <div class="flower-container">
+    <div class="flower-image">
+      <img src="flower-store.png" alt="Flower Shop">
     </div>
-    <div class="text-section">
-      <img src="trusted-badge.png" alt="Trusted Seller Badge" class="badge" />
-      <h2>Flower & Plants Lover</h2>
+    <div class="flower-text">
+      <img src="trusted-badge.png" alt="Trusted Badge" class="badge">
+      <h2>Flower & Plants <br>Lover</h2>
       <ul>
         <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
         <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
@@ -120,36 +121,90 @@
       </ul>
     </div>
   </div>
+</section>
+
   <!-- Latest Deals -->
-  <section class="deals">
-    <h2>Latest Deals</h2>
-    <p>From classic roses to exotic blooms</p>
-    <div class="deal-cards">
-      <div class="deal-card">10% Off - Mini Plants</div>
-      <div class="deal-card">25% Off - Zabo Plant</div>
-      <div class="deal-card">30% Off - Rose Pack</div>
+ <section class="latest-deals-section">
+    <div class="section-header">
+      <h2><span class="highlight">Latest</span> Deals</h2>
+      <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+    </div>
+
+    <div class="deals-container">
+      <!-- Left side -->
+      <div class="left-deals">
+        <div class="deal-card small">
+          <img src="deal-bloom.png" alt="Bloom Plant" />
+          <div class="overlay">
+            <p>60% Off / Bloom Plant</p>
+            <button>Shop Now</button>
+          </div>
+        </div>
+        <div class="deal-card small">
+          <img src="deal-ana.png" alt="Ana Plant" />
+          <div class="overlay">
+            <p>30% Off / Ana Plant</p>
+            <button>Shop Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right side -->
+      <div class="deal-card large">
+        <img src="deal-zabo.png" alt="Zabo Plant" />
+        <div class="overlay">
+          <p>25% Off / Zabo Plant</p>
+          <button>Shop Now</button>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Join Section -->
-  <section class="join">
-    <h2>Join the colorful Bunch</h2>
-    <input type="email" placeholder="Enter your email">
-    <button>Subscribe</button>
+  <section class="subscribe-section">
+    <div class="overlay">
+      <h2>Join the colorful Bunch</h2>
+      <div class="subscribe-form">
+        <input type="email" placeholder="Write email" />
+        <button type="submit">Subscribe</button>
+      </div>
+    </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="footer-logo">F-Plant</div>
-    <div class="footer-links">
-      <a href="#">Home</a>
-      <a href="#">Features</a>
-      <a href="#">About</a>
-    </div>
-    <div class="social">
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
+  <footer class="footer">
+    <div class="footer-container">
+      
+      <div class="footer-logo">
+        <img src="logo.png" alt="Logo" class="logo-img">
+        <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+      </div>
+
+      <div class="footer-links">
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Blog</li>
+          <li>FAQ</li>
+          <li>Contact Us</li>
+        </ul>
+
+        <ul>
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Privacy Policy</li>
+          <li>Terms of Service</li>
+          <li>Help Center</li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+
     </div>
   </footer>
 </body>
