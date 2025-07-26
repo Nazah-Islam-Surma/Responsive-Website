@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fbff;
+  color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #f8fbff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f58220;
+}
+
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  color: #f58220;
+}
+
+/* Banner styling */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.text-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #f58220;
+}
+
+.text-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+/* Image styling */
+.image-content {
+  flex: 1;
+  text-align: right;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f6fc;
+}
+
+/* Section Wrapper */
+.plants-section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Title Section */
+.text-center {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.text-center h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.text-center .highlight {
+  color: #ff5b2e;
+}
+
+.subtitle {
+  color: #777;
+  font-size: 14px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Grid Cards */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.card h3 {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card .price {
+  margin: 8px 0;
+  color: #333;
+  font-weight: 500;
+}
+
+.card button {
+  background: #ff5b2e;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.card button:hover {
+  background: #e14b21;
+}
+
+/* Responsive Grid */
+@media (max-width: 768px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
